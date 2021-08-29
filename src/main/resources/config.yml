@@ -1,0 +1,124 @@
+reload-message: '&a&lReloaded RokoQuests config file!'
+
+# You can have up to 53 possible quest items
+# If left empty, COBBLESTONE will be added
+# Repeats are automatically removed
+find-items:
+  - 'COBBLESTONE'
+  - 'OAK_WOOD'
+  - 'JUNGLE_WOOD'
+
+# You can have up to 53 possible quest entities
+# If left empty, ZOMBIE will be added
+# Repeats are automatically removed
+kill-items:
+  - 'ZOMBIE'
+  - 'SKELETON'
+  - 'ENDERMAN'
+  - 'CREEPER'
+  - 'WITHER'
+  - 'COW'
+  - 'CHICKEN'
+  - 'PIG'
+
+amounts:
+  - 5
+  - 10
+  - 20
+  - 50
+  - 100
+  - 500
+  - 1000
+  - 5000
+  - 10000
+  - 20000
+  - 50000
+
+# To add rewards, add under corresponding difficulty
+# Reward Format:
+#    reward-0:
+#      item: 'DIAMOND'
+#      amount: '8'
+rewards:
+  easy:
+    reward-0:
+      item: 'DIAMOND'
+      amount: '8'
+    reward-1:
+      item: 'WITHER_SKELETON_SKULL'
+      amount: 1
+    reward-2:
+      item: 'NETHERITE_INGOT'
+      amount: 1
+    reward-3:
+      item: 'COPPER_INGOT'
+      amount: 32
+    reward-4:
+      item: 'FIREWORK_ROCKET'
+      amount: 32
+
+  normal:
+    reward-0:
+      item: 'DIAMOND'
+      amount: 16
+    reward-1:
+      item: 'WITHER_SKELETON_SKULL'
+      amount: 2
+    reward-2:
+      item: 'NETHERITE_INGOT'
+      amount: 2
+    reward-3:
+      item: 'SPONGE'
+      amount: 2
+    reward-4:
+      item: 'COPPER_INGOT'
+      amount: 64
+    reward-5:
+      item: 'FIREWORK_ROCKET'
+      amount: 64
+
+  hard:
+    reward-0:
+      item: 'DIAMOND'
+      amount: 32
+    reward-1:
+      item: 'WITHER_SKELETON_SKULL'
+      amount: 3
+    reward-2:
+      item: 'NETHERITE_INGOT'
+      amount: 3
+    reward-3:
+      item: 'MUSIC_DISC'
+      amount: 1
+    reward-4:
+      item: 'ELYTRA'
+      amount: 1
+    reward-5:
+      item: 'TOTEM_OF_UNDYING'
+      amount: 1
+    reward-6:
+      item: 'HEART_OF_THE_SEA'
+      amount: 1
+
+  extreme:
+    reward-0:
+      item: 'DIAMOND'
+      amount: 64
+    reward-1:
+      item: 'BEACON'
+      amount: 1
+    reward-2:
+      item: 'MUSIC_DISC'
+      amount: 1
+    reward-3:
+      item: 'ELYTRA'
+      amount: 1
+    reward-4:
+      item: 'TOTEM_OF_UNDYING'
+      amount: 1
+    reward-5:
+      item: 'HEART_OF_THE_SEA'
+      amount: 1
+    reward-6:
+      item: 'ENCHANTED_GOLDEN_APPLE'
+      amount: 1

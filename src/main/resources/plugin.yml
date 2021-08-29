@@ -1,0 +1,25 @@
+name: RokoQuestsPlugin
+version: ${project.version}
+main: me.lyorex.rokoquestsplugin.RokoQuestsPlugin
+api-version: 1.17
+authors: [ LyoRex ]
+description: A plugin that adds quests to Minecraft servers
+commands:
+  rokoquests:
+    description: general RokoQuest commands
+    usage: Usage "/rokoquests <info/reload>"
+    aliases: [rq]
+  listplayers:
+    description: list all players
+    aliases: [lp]
+  createquest:
+    description: open a gui to create a quest
+    aliases: [cq]
+  setquest:
+    description: set player quests
+    usage: Usage "/setmission [player/"all"/"random"] [QuestType] [Target Item/Entity] [Quest Amount] [Quest Progress]"
+    aliases: [sq]
+  myquest:
+    description: check your current quest
+    aliases: [mq]
+
